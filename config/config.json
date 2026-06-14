@@ -1,0 +1,39 @@
+{
+  "browser": {
+    "headless": false
+  },
+  "email_provider": "sutemeado",
+  "email_providers": {
+    "sutemeado": {
+      "enabled": true,
+      "base_url": "https://sutemeado.com"
+    },
+
+    "cybertemp": {
+      "enabled": false,
+      "api_key": "",
+      "domain": ""
+    },
+
+    "mailcow": {
+      "enabled": false,
+      "host_url": "",
+      "api_key": "",
+      "domain": ""
+    },
+
+    "orify": {
+      "enabled": false,
+      "note": "Free temp email"
+    }
+  },
+
+  "proxies": {
+    "enabled": false,
+    "file_path": "proxies.txt"
+  },
+
+  "output": {
+    "tokens_file": "tokens.txt"
+  }
+}
